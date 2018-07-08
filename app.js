@@ -3,7 +3,7 @@
 
 function formatInput(string) {
 	var result = string;
-	return result.toLowerCase().match(/\b[^\s]+\b/g);
+	return result.toLowerCase().match(/\b[\w\S]+\b/g);
 }
 
 function getWordCount(arr) {
